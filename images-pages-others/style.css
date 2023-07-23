@@ -1,0 +1,169 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.top-item {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 5rem; 
+    box-sizing: border-box;
+    background: blanchedalmond;
+    border: black solid 2px;
+    /* delete 2 later ALONG with navigation. */
+}
+
+.top-item.navigation {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+}
+
+.navigation {
+    width: fit-content;
+    background: #1F2937;
+    border: none;
+    /* delete 2 later ^^^^^^ */
+    align-items: center;
+}
+
+.navigation.logo {
+    color: #F9FAF8;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+}
+
+.node {
+    height: 1.7rem;
+    width:  1.7rem;
+    margin-right: 0.6rem;
+    vertical-align: middle;
+}
+
+.navigation.link {
+    color: #e5e7eb;
+    padding: 1rem;
+    font-size: 1.125rem;
+}
+
+.navigation.link.one {
+    margin-left: auto;
+}
+
+.opening {
+   flex-direction: row;
+   display: flex;
+   justify-content: center;
+}
+
+.top-item.title,
+.top-item.image {
+    width: 45vw;
+    margin: 0px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.header {
+    box-sizing: border-box;
+    background: blanchedalmond;
+    border: black solid 2px;
+    width: 100%;
+    height: 5rem;
+    /* temp height ^^^^ */
+}
+
+.info-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    width: calc(100%/4);
+    box-sizing: border-box;
+    background: blanchedalmond;
+    border: black solid 2px;
+    height: 5rem;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin-left: 12.5vw;
+    margin-right: 12.5vw;
+}
+
+.quote.actual,
+.quote.author {
+    box-sizing: border-box;
+    background: blanchedalmond;
+    border: black solid 2px;
+    height: 100px; 
+    /* tempp height */
+    width: 100%;
+}
+
+.quote.author {
+    width: 5%;
+    margin-left: auto;
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 100px;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+
+.signup {
+    box-sizing: border-box;
+    background: blanchedalmond;
+    border: black solid 2px;
+}
+
+.signup.notice {
+    width: 70%;
+    height: 100%;
+}
+
+.signup.button {
+    width: 20%;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.extra {
+    display: flex;
+    width: 100vw;
+    background-color: #1F2937;
+    height: 5vh;
+    position: fixed;
+    bottom: 0px;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
