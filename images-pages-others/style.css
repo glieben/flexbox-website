@@ -6,10 +6,11 @@
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    width: 100vw;
 }
 
 .top-item {
-    width: 90vw;
+    width: 100vw;
     margin-left: 5vw;
     margin-right: 5vw;
     height: 5rem; 
@@ -135,8 +136,7 @@
 .info {
     display: flex;
     flex-direction: column;
-    width: 80vw;
-    margin-left: 10vw;
+    width: 100vw;
     margin-right: 10vw;
     margin-top: 8rem;
     margin-bottom: 8rem;
@@ -159,6 +159,9 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: transparent;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .item {
@@ -171,6 +174,8 @@
     border: #3882F6 solid 0.25rem;
     background-color: transparent;
     margin-bottom: 3rem;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .lang-logo {
