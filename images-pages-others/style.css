@@ -14,9 +14,6 @@
     margin-right: 5vw;
     height: 5rem; 
     box-sizing: border-box;
-    background: blanchedalmond;
-    border: black solid 2px;
-    /* delete 2 later ALONG with navigation. */
 }
 
 .top-item.navigation {
@@ -27,23 +24,20 @@
 
 .navigation {
     width: fit-content;
-    background: #1F2937;
-    border: none;
-    /* delete 2 later ^^^^^^ */
     align-items: center;
 }
 
 .navigation.logo {
     color: #F9FAF8;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     display: flex;
 }
 
 .node {
-    height: 1.7rem;
-    width:  1.7rem;
+    height: 2rem;
+    width:  2rem;
     margin-right: 0.6rem;
     vertical-align: middle;
 }
@@ -51,7 +45,7 @@
 .navigation.link {
     color: #e5e7eb;
     padding: 1rem;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
 }
 
 .navigation.link.one {
@@ -61,13 +55,75 @@
 .opening {
    flex-direction: row;
    display: flex;
-   justify-content: center;
+   width: 70vw;
+   margin-left: 15vw;
+   margin-right: 15vw;
+   margin-top: 5rem;
+   padding-bottom: 5rem;
+   
 }
 
 .top-item.title,
 .top-item.image {
-    width: 45vw;
+    width: calc(100%/2);
     margin: 0px;
+    /* border: red solid 2px; */
+    height: 100%;
+}
+
+.top-item.title {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.top-item.title.header1 {
+    width: 100%;
+    font-size: 2rem;
+    color: #F9FAF8;
+    padding: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.top-item.title.sub {
+    color: #e5e7eb;
+    padding: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+.top-item.title.button {
+    width: fit-content;
+    color: #F9FAF8;
+    padding: 0.6rem;
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: #3882F6;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: #F9FAF8 solid 0.15rem;
+}
+
+.top-item.image {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.languages {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: #151c25 solid 3px;
 }
 
 .info {
@@ -167,3 +223,11 @@ body {
     height: 100vh;
     width: 100vw;
 }
+
+
+
+
+
+
+
+
